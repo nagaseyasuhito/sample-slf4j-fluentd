@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE logback>
+<configuration>
+	<appender name="fluent" class="ch.qos.logback.more.appenders.DataFluentAppender">
+		<tag>td</tag>
+		<label>glassfish.log</label>
+		<remoteHost>127.0.0.1</remoteHost>
+		<port>24224</port>
+		<maxQueueSize>20</maxQueueSize>
+	</appender>
+
+	<root>
+		<level value="debug" />
+		<appender-ref ref="fluent" />
+	</root>
+</configuration>
