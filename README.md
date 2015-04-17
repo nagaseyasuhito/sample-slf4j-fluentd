@@ -11,7 +11,7 @@ This sample web application is implemented by Java 8 and Java EE 7. And tested o
 
 * Fluentd
 * Java SE Development Kit 8
-* Maven 3
+* Maven *3.2.2* or later (Maven 3.2.1 occurs exception)
 
 ## Usage
 
