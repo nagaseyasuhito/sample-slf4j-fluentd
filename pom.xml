@@ -20,8 +20,6 @@
 				<artifactId>maven-embedded-glassfish-plugin</artifactId>
 				<version>4.0</version>
 				<configuration>
-					<goalPrefix>embedded-glassfish</goalPrefix>
-					<autoDelete>true</autoDelete>
 					<port>8080</port>
 				</configuration>
 				<executions>
